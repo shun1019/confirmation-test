@@ -1,0 +1,144 @@
+.header {
+    text-align: center;
+    border-bottom:1px solid #cccccc;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border-bottom: #7b614c;
+}
+
+.header__logo {
+    color: #7b614c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading h2 {
+    color: #7b614c;
+    text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form__group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form__group-title {
+    flex: 0 0 20%;
+}
+
+
+.form__label--required {
+    margin-left: 5px;
+    color: #e74c3c;
+    font-size: 0.9em;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 670px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 20px;
+    appearance: none;
+}
+
+.form__input--text {
+    flex: 1;
+}
+
+.name-inputs {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.form__input--text input {
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__input--radio {
+    margin-left: 30px;
+    text-align: left;
+    display: flex;
+    gap: 15px;
+}
+
+.form__input--radio label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form__input--text-tel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.form__input--text-tel input[type="tel"] {
+    flex: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.form__input--text-tel span {
+    margin: 0 5px;
+    margin-left: 20px;
+}
+
+.form__input--select {
+    height: 30px;
+    margin-left: 20px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #7b614c;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.form__error {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding-left: 20px;
+    display: block;
+}
